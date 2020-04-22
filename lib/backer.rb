@@ -1,5 +1,5 @@
 class Backer
-attr_accessor :backed_projects
+attr_accessor :backed_projects, :backers
 attr_reader :name
 def initialize(name)
   @name = name
@@ -8,6 +8,7 @@ end
 
 def back_project(project)
   @backed_projects << project
+  
 end
 
 end

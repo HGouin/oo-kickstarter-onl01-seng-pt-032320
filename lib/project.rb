@@ -9,5 +9,3 @@ attr_reader :title
 
 
 end
-
-
